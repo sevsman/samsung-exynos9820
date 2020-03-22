@@ -33,7 +33,7 @@ jobs:
                 +ttl             \
                 -wireguard       \
                 +cifs            \
-                +1000HZ          \
+                +1000hz          \
                 +sdfat           \
                 +ntfs            \
                 +morosound       \
