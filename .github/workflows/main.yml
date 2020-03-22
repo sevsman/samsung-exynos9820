@@ -31,7 +31,7 @@ jobs:
                 +magisk          \
                 +nohardening     \
                 +ttl             \
-                -wireguard       \
+                
                 +cifs            \
                 +1000hz          \
                 +sdfat           \
