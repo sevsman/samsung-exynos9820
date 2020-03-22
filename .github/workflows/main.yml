@@ -26,13 +26,14 @@ jobs:
     - name: Kernel Configure
       run: |
         ./build config           \
-                model=G973F      \
-                name=CRUEL-V3.2  \
+                model=N975F      \
+                name=CRUEL-V3.2-1000HZ  \
                 +magisk          \
                 +nohardening     \
                 +ttl             \
-                +wireguard       \
+                -wireguard       \
                 +cifs            \
+                +1000HZ          \
                 +sdfat           \
                 +ntfs            \
                 +morosound       \
