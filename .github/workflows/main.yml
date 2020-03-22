@@ -31,7 +31,6 @@ jobs:
                 +magisk          \
                 +nohardening     \
                 +ttl             \
-                
                 +cifs            \
                 +1000hz          \
                 +sdfat           \
@@ -54,3 +53,5 @@ jobs:
       with:
         name: ConfigurationInfo
         path: build.info
+                
+                
