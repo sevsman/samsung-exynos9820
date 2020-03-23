@@ -109,6 +109,9 @@ For example:
 * ntfs - enable ntfs filesystem support (read only).
 * cifs - adds CIFS fs support.
 * +cubic - use CUBIC as default TCP congestion control.
+* +tcp_window_64k - lock the initial TCP window size to 64K. You can use it if
+  you have a good internel connection to increase the size of transmitting
+  packets to the max.
 * sched_... - enable various (performance, conservative, ondemand, powersave,
   userspace) CPU schedulers in the kernel.
 * ttl - adds iptables filters for altering ttl values of network packets. This
