@@ -36,7 +36,8 @@ jobs:
                 +sdfat           \
                 +ntfs            \
                 +morosound       \
-                +boeffla_wl_blocker
+                +cubic           \
+                +boeffla_wl_blocker  \
     - name: Kernel Build
       run: ./build :build
     - name: Create boot.img
